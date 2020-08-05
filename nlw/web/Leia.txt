@@ -1,0 +1,10 @@
+Muito mais fácil programar.
+Routes, uso com o Link to para deixar toda a aplicação SPA.
+
+O index vai renderizar tudo e só vai chamar o APP.tsx
+No APP.tsx retorna as routes e todo o style global.
+No index só fica o básico do básico, as páginas ficam dentro de pages
+Landing é minha página inicial, dps crio outros nomes para outras páginas
+componentes eu coloco todos os componentes que vão se repetir, um cabeçalho, formulário, tudo lá com seu próprio index e style.
+
+Importante: O uso das props, {props.title} que deixa tudo mais daora

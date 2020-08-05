@@ -1,0 +1,9 @@
+Executei yarn init -y, yarn add typescript -D
+Dps o arq de config do TS, yarn tsc --init e colocar no tsconfig o target para es2017
+Dps yarn add ts-node-dev -D para ficar retartando o server automático
+Dps yarn add express e yarn add @types/express -D
+
+PARA O BANCO DE DADOS:
+yarn add knex sqlite3. O knex posso fazer tudo do BD com código JS(top shauhsa).
+
+Meu script no package.json está = "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
