@@ -2,4 +2,4 @@
 
 Segundo Projeto Web para treinar React 
 <br/>
-Dia 1/5 quase completo
+Dia 2/5 falta 1h e meia
