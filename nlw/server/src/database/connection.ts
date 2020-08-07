@@ -1,6 +1,8 @@
 import knex from 'knex'
 import path from 'path'
 
+// migrations = controlam a versão do BD
+
 const db = knex({
     client: 'sqlite3',
     connection: {
@@ -11,4 +13,4 @@ const db = knex({
     // O sqllite não sabe o valor que ele tem que jogar pra algo quando n tem nada, assim falo para ele setar nulo
 });
 
-export default db;
+export default db; 

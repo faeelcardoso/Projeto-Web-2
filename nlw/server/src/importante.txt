@@ -7,3 +7,7 @@ PARA O BANCO DE DADOS:
 yarn add knex sqlite3. O knex posso fazer tudo do BD com código JS(top shauhsa).
 
 Meu script no package.json está = "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+
+Bem dps, para mexer no BD, como estou usando Knex, lembrar de mexer no package.json e criar o script
+knex:migrate: knex --knexfile knexfile.ts migrate:latest, para fazer o knex ler TS em vez de JS e também. Esse comando cria os sqls
+criar logo abaixo o  knex --knexfile knexfile.ts migrate:rollback, para caso dê merda, volta atrás
