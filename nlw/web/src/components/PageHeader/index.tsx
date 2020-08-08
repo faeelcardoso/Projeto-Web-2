@@ -7,7 +7,8 @@ import backIcon from '../../assets/images/icons/back.svg';
 import './styles.css';
 
 interface PageHeaderProps {
-    title: string;
+    title: string; // Obrigatória, vai para todas as páginas
+    description?: string; // não é obrigatória, coloco o "?", pois não vai para todas as páginas
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => { 
@@ -23,6 +24,7 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
 
             <div className="header-content">
                 <strong>{props.title}</strong>
+                { props.description && <p>{ props.description }</p> } {/* só irá mostrar, se props.description for true */}
 
                 { props.children } {/* children são todos os conteúdos da props */}
             </div>

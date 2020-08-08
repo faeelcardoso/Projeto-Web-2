@@ -16,7 +16,7 @@ export async function up(knex: Knex) {
 
         // pego a hr que a conexão aconteceu
         table.timestamp('created_at')
-            .defaultTo('now()') // hr exata
+            .defaultTo(knex.raw('CURRENT_TIMESTAMP')) // hr exata, como se fosse o now()
             .notNullable()
     })
 }

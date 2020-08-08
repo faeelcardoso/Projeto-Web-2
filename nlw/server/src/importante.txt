@@ -11,3 +11,7 @@ Meu script no package.json está = "start": "tsnd --transpile-only --ignore-watc
 Bem dps, para mexer no BD, como estou usando Knex, lembrar de mexer no package.json e criar o script
 knex:migrate: knex --knexfile knexfile.ts migrate:latest, para fazer o knex ler TS em vez de JS e também. Esse comando cria os sqls
 criar logo abaixo o  knex --knexfile knexfile.ts migrate:rollback, para caso dê merda, volta atrás
+
+Dps da API pronta, instalar o yarn add cors para poder permitir a conexao do frontend com o backend
+pois cada um está em uma porta diferente, 3000 e 3333, respectivamente. 
+Logo dps tbm rodar yarn add @types/cors -D
