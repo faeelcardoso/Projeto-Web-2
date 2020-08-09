@@ -15,3 +15,5 @@ criar logo abaixo o  knex --knexfile knexfile.ts migrate:rollback, para caso dê
 Dps da API pronta, instalar o yarn add cors para poder permitir a conexao do frontend com o backend
 pois cada um está em uma porta diferente, 3000 e 3333, respectivamente. 
 Logo dps tbm rodar yarn add @types/cors -D
+
+Conectando frontend com backend, executar no frontend yarn add axios para facilitar consumir API externas, da mesma forma que o Insomnia faz

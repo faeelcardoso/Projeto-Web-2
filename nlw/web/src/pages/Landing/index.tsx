@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 
 import logoImg from '../../assets/images/logo.svg';
@@ -8,9 +8,25 @@ import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
+import api from '../../services/api';
+
 import './styles.css'
 
 function Landing() {
+    const [totalConnections, setTotalConnections] = useState(0)
+
+    useEffect(() => {
+        api.get('connections').then(response => {
+            const { total } = response.data // a variável total está dentro de data.
+
+            setTotalConnections(total)
+        })
+    }, [])
+    // funciona basicamente assim: 2 parâmetros, uma função e uma variavel. Toda vez que a variável mudar, executa a função
+    // imagina a variavel "likes", toda vez que ter um novo like, a função é executada
+    // porém no meu exemplo, é uma conexão para ser exibida apenas quando o componente é exibido em tela, é apenas uma vez
+    // nesse exemplo, o array das variável vai vazio para ele n ficar atualizando td hr
+
     return (
         <div id="page-landing">
 
@@ -35,7 +51,7 @@ function Landing() {
                  </div>
 
                 <span className="total-connections">
-                    Total de 200 conexões já realizadas <img src={ purpleHeartIcon } alt="Coração roxo"/>
+                    Total de { totalConnections } conexões já realizadas <img src={ purpleHeartIcon } alt="Coração roxo"/>
                 </span>
 
             </div>
