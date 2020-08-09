@@ -2,4 +2,6 @@
 
 Segundo Projeto Web para treinar React 
 <br/>
-Dia 3/5 falta 1hr
+Dia 5/5
+
+QUE PROJETO LOUCO, React é muito foda!
