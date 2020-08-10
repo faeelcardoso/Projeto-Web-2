@@ -1,0 +1,20 @@
+expo init mobile para criar o server e escolher o black(typescript) 2 opção
+dps yarn start e entro da pasta mobile e já abre o expo no navegador e acesso dps pelo celular
+
+Fontes: expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+
+Ir no React Navigation tem tudo lá
+Routes: yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+Ir no Hello React Navigation
+Se tem um botão de voltar na tela, significa que muito provável é uma navegação em pilha, aí instalar. Tem tambem a em abas e a hamburguer, aquela que puxa pro lado
+yarn add @react-navigation/stack
+Para instalar a Tab Navigation, meu projeto vai ter a pilha e a Tab
+yarn add @react-navigation/bottom-tabs
+Para evitar algum erro, tbm instalar
+npm install react-timer-mixin
+
+Conectando com a API
+yarn add axios
+
+$ expo install @react-native-community/async-storage  
