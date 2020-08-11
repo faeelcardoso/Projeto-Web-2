@@ -34,8 +34,6 @@ Como sempre a Rockseat traz o projeto pensando em alguma data especial ou algum 
  ✔ Expo <br>
  ✔ Axios <br>
 
- -  
-
  ## 📁 Como baixar o projeto e executá-lo
 
 - **Importante**!
