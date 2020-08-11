@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="nlw/web/src/assets/images/logo.svg" width="230px">
+    <img src="nlw/web/src/assets/images/logo.sv" width="230px">
     <br>Next Level Week #02</br> 
 </h1>
 
