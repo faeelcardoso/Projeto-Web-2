@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="nlw/web/src/assets/images/logo.svg" width="230px">
+    <img src="nlw/web/src/assets/images/logo_black.svg" width="230px">
     <br>Next Level Week #02</br> 
 </h1>
 
@@ -10,7 +10,7 @@
 </p>
 
 <h1>
-    <img src="" alt="Gif do projeto, in build">
+    <img src="nlw/web/src/assets/images/github.svg" alt="Gif do projeto">
 </h1>
 
 ## Indice
