@@ -10,7 +10,7 @@
 </p>
 
 <h1>
-    <img src="nlw/web/src/assets/images/github.svg" alt="Gif do projeto">
+    <img src="nlw/web/src/assets/images/github.gif" alt="Gif do projeto">
 </h1>
 
 ## Indice
