@@ -21,7 +21,7 @@
 
 ## 📜 Sobre
 **Projeto Proffy**, da semana Next Level Week, promovido pela **Rocketseat** pelo instrutor Diego Fernandes.
-Proffy é uma plataforma de estudos online onde é possível conectar alunos com professores. Com essa aplicação os professores conseguem se cadastrar, adicionando suas disciplinas, o dia e o horário disponível. E os alunos conseguem buscar pelos professores cadastrados para marcarem alguma aula.<br /><br />
+Proffy é uma plataforma de estudos online onde é possível conectar alunos com professores. Com essa aplicação os professores conseguem se cadastrar, adicionando suas disciplinas, os dias e os horários disponíveis. E os alunos conseguem buscar pelos professores cadastrados para marcarem alguma aula.<br /><br />
 Como sempre a Rockseat traz o projeto pensando em alguma data especial ou algum evento que irá acontecer perto da semana do NLW e dessa vez, foi pensando no **Dia Nacional dos Profissionais da Educação**, comemorado no dia **6 de Agosto**.
 
 ## 🚀 Tecnologias Utilizadas
