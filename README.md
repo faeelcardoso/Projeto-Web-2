@@ -36,7 +36,7 @@ Como sempre a Rockseat traz o projeto pensando em alguma data especial ou algum 
 
  ## 📁 Como baixar o projeto e executá-lo
 
-- **Importante**!
+  **Importante**!
 
 Para rodar a aplicação é preciso ter instalado na sua máquina:
 
