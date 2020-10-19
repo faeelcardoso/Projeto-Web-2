@@ -50,7 +50,7 @@ Para rodar a aplicação é preciso ter instalado na sua máquina:
     $ git clone https://github.com/faeelcardoso/Projeto-Web-02.git
     
     # Entrar no repositório
-    $ cd Projeto-Web-01
+    $ cd Projeto-Web-02
 
     # API
     $ cd server
