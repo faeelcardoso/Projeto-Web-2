@@ -78,7 +78,7 @@ Para rodar a aplicação é preciso ter instalado na sua máquina:
  ```
 
 ## 👨🏻‍💻 Aprendizado
-Era de se esperar que iria ser outra semana fantástica. Desta vez como eu já tinha uma bagagem básica de Dev Web eu participei da semana GoStack com o Diego, que foi um pouco mais avançada e mostrando muito conteúdo sobre React e React Native e eu literalmente fiquei admirado com essa stack! E não para por aí, eles ainda deixaram uma [Versão 2.0 da aplicação](https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970), que são desafios para serem implementados, com o objetivo de elevar ainda mais o conhecimento. Agora é partir para os estudos e continuar a aprimorar a aplicação! **Valeu Rocketseat! Bora codar!**
+Era de se esperar que iria ser outra semana fantástica. Desta vez como eu já tinha uma bagagem básica de Dev Web eu participei da semana OmniStack com o Diego, que foi um pouco mais avançada e mostrando muito conteúdo sobre React e React Native e eu literalmente fiquei admirado com essa stack! E não para por aí, eles ainda deixaram uma [Versão 2.0 da aplicação](https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970), que são desafios para serem implementados, com o objetivo de elevar ainda mais o conhecimento. Agora é partir para os estudos e continuar a aprimorar a aplicação! **Valeu Rocketseat! Bora codar!**
 
 ---
 ##### ☕ Desenvonvido por [Raphael Marques](https://github.com/faeelcardoso), com a tutoria de [Diego Fernandes](https://github.com/diego3g) da grande [Rocketseat](https://rocketseat.com.br/)
